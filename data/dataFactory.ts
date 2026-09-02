@@ -17,8 +17,8 @@ export const adminUser: UserCredentials = {
 
 export function createProductData(overrides: Partial<ProductData> = {}): ProductData {
   return {
-    name: 'Wireless Mouse',
-    price: '29.99',
+    name: 'Abdullah Alabd Product',
+    price: '100.15',
     ...overrides,
   };
 }
