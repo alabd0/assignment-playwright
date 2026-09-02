@@ -67,8 +67,8 @@ Page-specific assertions (like toast visibility and message validation) live dir
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/alabd0/assigment-electro-pi.git
-   cd assigment-electro-pi
+   git clone https://github.com/alabd0/assigment-playwright.git
+   cd assigment-playwright
    ```
 
 2. Install dependencies:
