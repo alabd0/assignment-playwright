@@ -4,10 +4,10 @@ End-to-end automated testing suite built with **Playwright**, **TypeScript**, an
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
-assigment-electro-pi/
+assigment-playwright/
 ├── .github/
 │   └── workflows/
 │       └── playwright.yml       # CI workflow for running tests
@@ -27,7 +27,7 @@ assigment-electro-pi/
 
 ---
 
-## 🎯 Automated Scenario Flow
+## Automated Scenario Flow
 
 The test suite covers the following end-to-end user scenario:
 
@@ -39,7 +39,7 @@ The test suite covers the following end-to-end user scenario:
 
 ---
 
-## 🏗️ Architecture & Design Patterns
+## Architecture & Design Patterns
 
 ### 1. Page Object Model (POM)
 Encapsulates web elements, locators, and user actions into dedicated classes to improve maintainability and reduce code duplication:
@@ -57,7 +57,7 @@ Page-specific assertions (like toast visibility and message validation) live dir
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
@@ -97,7 +97,7 @@ Page-specific assertions (like toast visibility and message validation) live dir
 
 ---
 
-## ⚙️ Environment Variables (Optional)
+## Environment Variables (Optional)
 
 You can customize credentials by providing environment variables:
 
@@ -109,7 +109,7 @@ npx playwright test
 
 ---
 
-## 🤝 Contribution Guidelines
+## Contribution Guidelines
 
 1. **Adding New Pages**: Create a new class under `pages/` following the existing POM conventions.
 2. **Adding Test Data**: Define types and generator functions in [data/dataFactory.ts](data/dataFactory.ts).
