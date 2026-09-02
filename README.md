@@ -67,8 +67,8 @@ Page-specific assertions (like toast visibility and message validation) live dir
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/alabd0/assigment-playwright.git
-   cd assigment-playwright
+   git clone https://github.com/alabd0/assignment-playwright.git
+   cd assignment-playwright
    ```
 
 2. Install dependencies:
