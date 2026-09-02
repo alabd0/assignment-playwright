@@ -1,4 +1,4 @@
-# Playwright Test Automation Framework (Electro-Pi Assignment)
+# Playwright Test Automation Framework
 
 End-to-end automated testing suite built with **Playwright**, **TypeScript**, and the **Page Object Model (POM)** design pattern.
 
