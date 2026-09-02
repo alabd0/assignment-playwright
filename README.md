@@ -83,7 +83,7 @@ Page-specific assertions (like toast visibility and message validation) live dir
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 | Command | Description |
 |---|---|
